@@ -106,13 +106,18 @@
     }
 
     &_col {
+        &:first-child {
+            @media (max-width: 575.98px) {
+                order: 2;
+                margin-top: 4rem;
+            }
+        }
+
         @media (min-width: 576px) {
             width: 50%;
         }
 
-        @media (max-width: 575.98px) {
-            order: 2;
-        }
+
 
         .vector {
             height: 100%;

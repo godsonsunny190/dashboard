@@ -28,7 +28,9 @@
 
         @media (max-width: 767.98px) {
             width: 100%;
+            margin-top: 0 !important;
             margin-bottom: 4rem;
+            order: 0 !important;
         }
     }
 
