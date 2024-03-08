@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- FONT FAMILY LINK -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="dashboard">
+        <div class="dashboard_wrapper">
+            <aside class="dashboard_sidebar" id="sldebar">
+
+                <div class="dashboard_logo">
+                    <img src="./assets/images/logo/logo.png" alt="">
+                </div>
+                <button onclick="toggleFun()"><img src="./assets/images/up-arrow.png" alt=""></button>
+                <ul>
+                    <li>
+                        <a href="" class="active"><img src="./assets/images/icons/home.png" alt="">Home</a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/icons/appointment.png" alt="">Appointments</a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/icons/patient.png" alt="">Patients</a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/icons/medical-assistance.png" alt="">Doctors</a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/icons/chatting.png" alt="">Messages</a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/icons/chemistry.png" alt="">Lab Tests</a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/icons/bill.png" alt="">Billing</a>
+                    </li>
+                </ul>
+            </aside>
+            <div class="dashboard_panel" id="main-panel">
+                <div class="dashboard_panel-head">
+                    <div class="dashboard_panel-button">
+                        <button onclick="toggleFun()"><img src="./assets/images/up-arrow.png" alt=""></button>
+                        <span>User Dashboard</span>
+                    </div>
+
+                    <!-- <a href="">Book Appointments</a> -->
+                    <div class="dashboard_panel-icons">
+                        <input type="text" placeholder="Search">
+                        <ul>
+                            <li>
+                                <a href=""><img src="./assets/images/dashboard.png" alt=""></a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="./assets/images/bell.png" alt=""></a>
+                            </li>
+
+                            <li>
+                                <a href=""><img src="./assets/images/settings.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dashboard_panel-main">
+                    <h3><img src="./assets/images/icon-1/right-arrow.png" alt=""> Patient Profile</h3>
+
+                    <div class="dashboard_row">
+                        <div class="dashboard_col">
+                            <div class="user">
+                                <div class="user_name">
+                                    <img src="./assets/images/photo-1494790108377-be9c29b29330.avif" alt="">
+                                    <h4>Ms. Jane Moore</h4>
+                                </div>
+
+                                <div class="user_detail">
+                                    <h4>Contact Detail</h4>
+
+                                    <ul>
+                                        <li><img src="./assets/images/icons/smartphone-call.png" alt=""><a
+                                                href="">0987654321</a></li>
+                                        <li><img src="./assets/images/icons/call.png" alt=""><a href="">0987654321</a>
+                                        </li>
+                                        <li><img src="./assets/images/icons/email.png" alt=""> <a
+                                                href="">example@gmail.com</a></li>
+                                        <li><img src="./assets/images/icons/home1.png" alt=""> Suite 647 76180 Wiegand
+                                            Crescent, Morissetteshire, IN 72856</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="result">
+                                <h4>Latest Lab Result</h4>
+                                <ul>
+                                    <li><img src="./assets/images/icons/insert-picture-icon.png" alt="">Overian Scan, 25
+                                        Nov, 2.7 MB</li>
+                                    <li><img src="./assets/images/icons/pdf.png" alt="">XYV Blood Test, 0.7 MB
+                                    </li>
+                                    <li><img src="./assets/images/icons/insert-picture-icon.png" alt="">Blood Tests XYZ,
+                                        0.7 MB</li>
+                                </ul>
+
+                                <div class="result_btn">
+                                    <button>Upload Files</button>
+                                    <a href="">View All</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="dashboard_col">
+                            <div class="overview">
+                                <h4>Overview:</h4>
+
+                                <ul>
+                                    <li>
+                                        <span>Gender:</span>
+                                        Female
+                                    </li>
+
+                                    <li>
+                                        <span>Date Of Birth:</span>
+                                        10/103/1995
+                                    </li>
+
+                                    <li>
+                                        <span>Next Of Kin:</span>
+                                        Dan Steavens
+                                    </li>
+
+                                    <li>
+                                        <span>Previous Visit:</span>
+                                        23/05/2022
+                                    </li>
+
+                                    <li>
+                                        <span>Next Visit:</span>
+                                        30/08/2022
+                                    </li>
+
+                                    <li>
+                                        <span>Allergies:</span>
+                                        Hayfever, crayfish
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="more">
+                                <ul>
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/event-management.png" alt=""></span>
+                                        Appointments
+
+                                    </li>
+
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/doctor.png" alt=""></span>
+                                        Doctors
+                                    </li>
+
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/medical.png" alt=""></span>
+                                        Treatments
+                                    </li>
+
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/flask.png" alt=""></span>
+                                        Tests and Result
+                                    </li>
+
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/user.png" alt=""></span>
+                                        Partner Profile
+                                    </li>
+
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/hearts.png" alt=""></span>
+                                        Vital Signs
+                                    </li>
+
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/medical (1).png" alt=""></span>
+                                        Billing
+                                    </li>
+
+                                    <li>
+                                        <span><img src="./assets/images/icon-1/audit.png" alt=""></span>
+                                        Consent Forms
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- BUNDILE JS -->
+    <script src="./assets/javascript/script.js"></script>
+
+    <!-- CUSTOM JAVASCRIPT LINK -->
+    <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>

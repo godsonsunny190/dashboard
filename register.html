@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- FONT FAMILY LINK -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="form-body">
+
+    <section class="form register">
+        <div class="form_wrapper">
+
+            <div class="form_col form_left">
+                <img class="vector" src="./assets/images/register/Rectangle 20.svg" alt="">
+            </div>
+
+            <div class="form_col form_right">
+                <h5>Register</h5>
+                <p>Let’s get you all st up so you can access your personal account.</p>
+
+                <form action="" name="registerform" method="post" onsubmit="return registerFormVal()">
+                    <div class="form_input form_register-input">
+                        <input type="text" name="firstname" placeholder="First Name">
+                        <input type="text" name="lastname" placeholder="Last Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="tel" name="number" placeholder="Phone Number">
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+
+                    <div class="form_checkbox">
+                        <label for=""><input type="checkbox">I agree to all the Terms and Privacy Policies</label>
+                    </div>
+
+                    <button type="submit" value="register">Create account</button>
+                </form>
+
+                <h6>Already have an account?<a href="login.html">Login</a></h6>
+                <span class="or">Or login with</span>
+
+                <ul class="form_social-links">
+                    <li>
+                        <a href=""><img src="./assets/images/login/facebook.svg" alt=""></a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/login/google.svg" alt=""></a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/login/apple.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- BUNDILE JS -->
+    <script src="./assets/javascript/script.js"></script>
+
+    <!-- CUSTOM JAVASCRIPT LINK -->
+    <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@import "./utilities/functions",
+"./utilities/mixins",
+"./utilities/variables";
+
+
+@import "./vendors/bootstrap/bootstrap.scss";
+
+
+@import "./core/reset",
+"./core/typography";
+
+
+@import "./layout/footer",
+"./layout/header",
+"./layout/sidebar";
+
+
+@import "./components/buttons";
+
+
+@import "./pages/dashboard";
+@import "./pages/login";
+@import "./pages/register";

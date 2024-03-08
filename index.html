@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- FONT FAMILY LINK -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="form-body">
+
+    <section class="form">
+        <div class="form_wrapper">
+
+            <div class="form_col">
+                <h5>Login</h5>
+                <p>Login to access your travelwise account</p>
+
+                <form name="loginform" method="post" onsubmit="return validateform()">
+                    <div class="form_input">
+
+                        <input type="email" name="email" placeholder="Enter Your Email">
+                        <input type="password" name="password" placeholder="Password">
+
+                    </div>
+
+                    <div class="form_checkbox">
+                        <label for=""><input type="checkbox">Remember me</label>
+                        <a href="">Forgot Password</a>
+                    </div>
+
+                    <button type="submit" value="login">Login</button>
+                </form>
+                <h6>Don’t have an account? <a href="register.html">Sign up</a></h6>
+                <span class="or">Or login with</span>
+
+                <ul class="form_social-links">
+                    <li>
+                        <a href=""><img src="./assets/images/login/facebook.svg" alt=""></a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/login/google.svg" alt=""></a>
+                    </li>
+
+                    <li>
+                        <a href=""><img src="./assets/images/login/apple.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="form_col">
+                <img class="vector" src="./assets/images/login/Rectangle 20.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- BUNDILE JS -->
+    <script src="./assets/javascript/script.js"></script>
+
+    <!-- CUSTOM JAVASCRIPT LINK -->
+    <script src="./assets/javascript/script.js"></script>
+
+</body>
+
+</html>

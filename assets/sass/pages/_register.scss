@@ -1,0 +1,42 @@
+.form {
+
+    &.register {
+        max-width: 98rem;
+    }
+
+    &_register-input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 1.4rem;
+
+        input {
+            width: calc(50% - 1.4rem / 2);
+
+            @media (max-width: 575.98px) {
+                width: 100%;
+            }
+
+            &:last-child {
+                width: 100%;
+            }
+        }
+    }
+
+    &_left {
+        width: 35%;
+
+        @media (max-width: 767.98px) {
+            width: 100%;
+            margin-bottom: 4rem;
+        }
+    }
+
+    &_right {
+        width: 65%;
+
+        @media (max-width: 767.98px) {
+            width: 100%;
+        }
+    }
+}
